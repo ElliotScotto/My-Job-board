@@ -8,6 +8,43 @@ header {
   font-family: Arial, Helvetica, sans-serif;
   margin-top: 0;
 }
+.jobscontainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 100px;
+  gap: 20px;
+  justify-content: center;
+}
+.jobstyle {
+  padding: 15px;
+  height: 280px;
+  width: 280px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: solid 4px;
+  display: flex;
+  flex-direction: column;
+}
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 28px;
+  flex: 1;
+}
+
+.red {
+  border-color: red;
+}
+.green {
+  border-color: green;
+}
+.yellow {
+  border-color: yellow;
+}
+.blue {
+  border-color: blue;
+}
+.pink {
+  border-color: pink;
+}
 footer {
   font-family: Arial, Helvetica, sans-serif;
   background-color: #dddddd;
@@ -16,93 +53,6 @@ footer {
   padding-bottom: 10px;
   text-align: center;
   margin-bottom: 0;
-}
-.Jobs {
-  margin-left: 100px;
-  margin-right: 100px;
-  font-family: Arial, Helvetica, sans-serif;
-  display: flex;
-  flex-wrap: wrap;
-}
-/*
-.Job {
-margin: 30px;
-border: solid 4px green; 
-height: 300px;
-width: 300px;
-padding: 10px;
-display: flex;
-flex-direction: column;
- flex-shrink: 0;
-}*/
-
-.red {
-  margin: 30px;
-  height: 200px;
-  width: 200px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-  border: solid 4px red;
-}
-.green {
-  margin: 30px;
-  height: 200px;
-  width: 200px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-  border: solid 4px green;
-}
-.yellow {
-  margin: 30px;
-  height: 200px;
-  width: 200px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-  border: solid 4px yellow;
-}
-.blue {
-  margin: 30px;
-  height: 200px;
-  width: 200px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-  border: solid 4px blue;
-}
-.pink {
-  margin: 30px;
-  height: 200px;
-  width: 200px;
-  padding: 10px;
-  display: flex;
-  flex-direction: column;
-  flex-shrink: 0;
-  border: solid 4px pink;
-}
-h1 {
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 28px;
-}
-.block-top {
-  background-color: purple;
-  flex: 5;
-}
-.block-bottom {
-  flex: 1;
-  align-items: flex-end;
-  background-color: aquamarine;
-  display: flex;
-  justify-content: flex-start;
-  gap: 10px;
-}
-.contract {
 }
 .author {
   font-weight: bold;
